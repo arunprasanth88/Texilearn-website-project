@@ -1,0 +1,410 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>Texila - Education and Courses </title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+	<!-- style -->
+	<link rel="shortcut icon" href="img/favicon.png">
+	<link rel="stylesheet" href="css/font-awesome.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" type="text/css" href="css/jquery.fancybox.css" />
+	<link rel="stylesheet" href="css/owl.carousel.css">
+	<!--styles -->
+<style>
+	@import url(https://fonts.googleapis.com/css?family=Raleway);
+
+*, *:before, *:after{
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing:border-box;
+  box-sizing: border-box;
+}
+
+body{
+  background: #f9f9f9;
+  font-size: 16px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.main-title{
+  color: #2d2d2d;
+  text-align: center;
+  text-transform: capitalize;
+  padding: 0.7em 0;
+}
+
+.container{
+  padding: 1em 0;
+ 
+  float: left;
+  width: 50%;
+  border: 1px solid #bdc3c7;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius:10px;
+
+    -webkit-animation: fadeInUp 300ms linear 300ms both;
+  -moz-animation: fadeInUp 300ms linear 300ms both;
+  -o-animation: fadeInUp 300ms linear 300ms both;
+  -ms-animation: fadeInUp 300ms linear 300ms both;
+  animation: fadeInUp 300ms linear 300ms both;
+}
+@media screen and (max-width: 640px){
+  .container{
+    display: block;
+    width: 100%;
+    
+  }
+}
+
+@media screen and (min-width: 900px){
+  .container{
+    width: 33.33333%;
+  }
+}
+
+.container .title{
+  color: #1a1a1a;
+  text-align: center;
+  margin-bottom: 10px;
+  font-size:18px;
+  
+}
+
+.content {
+  position: relative;
+  width: 90%;
+  padding:5px;
+  max-width: 400px;
+  margin: auto;
+  overflow: hidden;
+  border: 1px solid #95a5a6; 
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.content .content-overlay {
+  background: rgba(0,0,0,0.7);
+  position: absolute;
+  height: 99%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 0;
+  -webkit-transition: all 0.4s ease-in-out 0s;
+  -moz-transition: all 0.4s ease-in-out 0s;
+  transition: all 0.4s ease-in-out 0s;
+}
+
+.content:hover .content-overlay{
+  opacity: 1;
+}
+
+.content-image{
+  width: 100%;
+}
+
+
+
+.content-details {
+  position: absolute;
+  text-align: center;
+  padding-left: 1em;
+  padding-right: 1em;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  opacity: 0;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+  
+}
+
+.content:hover .content-details{
+  top: 50%;
+  left: 50%;
+  opacity: 1;
+  
+}
+
+.content-details h3{
+  color: #fff;
+  font-weight: 400;
+  letter-spacing: 0.15em;
+  margin-bottom: 0.5em;
+  text-transform: uppercase;
+  
+  
+}
+
+.content-details p{
+  color: #fff;
+  font-size: 0.8em;
+}
+
+.fadeIn-bottom{
+  top: 80%;
+}
+
+.fadeIn-top{
+  top: 20%;
+}
+
+.fadeIn-left{
+  left: 20%;
+}
+
+.fadeIn-right{
+  left: 80%;
+}
+	</style>
+
+</head>
+<body class="four-columns" style="background-image: url(img/pattern/debut_light.png);">
+	<header>
+		
+		<div class="sticky-wrapper">
+			<div class="sticky-menu">
+				<div class="grid-row clear-fix">
+					<!-- logo -->
+					<a href="index.html" class="logo">
+						<img src="img/logo.png"  data-at2x="img/logo.png" alt>
+						<!--<h1>uniLearn</h1>-->
+					</a>
+					<!-- / logo -->
+					<nav class="main-nav">
+						<ul class="clear-fix">
+							<li>
+								<a href="index.html">Home</a>							
+							</li>
+							<li><a href="aboutus.html">About Us</a></li>
+							<li>
+								<a href="#">Learning Services</a>
+								<!-- sub menu -->
+							<ul>
+							<li><a href="LearningSolutions.html">Learning Solutions</a></li>                                                                         
+                            <li><a href="LearningConsulting.html">Learning Consulting</a></li>                           
+                            <li><a href="Technology.html">Technology</a></li>                           
+                            <li><a href="Back-OfficeProcessSupport.html">Back-Office Process Support</a></li>
+                            <li><a href="Testing.html">Testing</a></li>
+                            <li><a href="DigitalMarketing.html">Digital Marketing</a></li>
+							</ul>
+								<!-- / sub menu -->
+							</li>
+							 <li><a href="trainingservice.html"  class="active">Training Services</a></li>
+							<li><a href="course-list.html">Courses</a></li>
+													
+							<li>
+								<a href="contact-us.html">Contact Us</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</div>
+		<div class="page-title">
+			<div class="grid-row">
+				 <!--<h2>About Us</h2>-->
+				<nav class="bread-crumb">					
+					<a href="">Training Services</a>
+				</nav>
+			</div>
+		</div>
+	</header>
+
+	<div class="page-content grid-row">
+		<main>
+			<div class="grid-col-row clear-fix">
+
+
+<div class="container">
+  
+  <div class="content">
+    
+      <div class="content-overlay"></div>
+      <img class="content-image" src="Images/brand.png">
+      <div class="content-details fadeIn-bottom">
+       
+        <p class="content-text" style="text-align:justify;font-size:16px">Our Brand training architect gives an authentic customer experience as it 
+							cultivates the brand advocates, fosters the brand 
+							perception and augments the sales productivity.</p>	
+      </div>
+    </a>
+  </div>
+  <h3 class="title">Brand Training</h3>
+</div>
+
+<div class="container">
+  
+  <div class="content">
+   
+      <div class="content-overlay"></div>
+      <img class="content-image" src="Images/compliance.png">
+      <div class="content-details fadeIn-top">
+        
+       <p class="content-text" style="text-align:justify;font-size:16px">Our compliance training suite embeds a culture of compliance and
+							 ensures that employees are compliant with policies 
+							 and regulations and effective risk management.</p>
+      </div>
+    </a>
+  </div><h3 class="title">Compliance Training</h3>
+</div>
+
+<div class="container">
+  
+  <div class="content">
+    
+      <div class="content-overlay"></div>
+      <img class="content-image" src="Images/employeetrain.png">
+      <div class="content-details fadeIn-left">
+        
+        <p class="content-text" style="text-align:justify;font-size:16px">Our Employee training services are proven strategies that 
+							emphasizes the strengths of employees and establishing their skills considering 
+							organizational goals and objectives.</p>
+      </div>
+    </a>
+  </div><h3 class="title">Employee Training</h3>
+</div>
+
+<div class="container">
+  
+  <div class="content">
+    
+      <div class="content-overlay"></div>
+      <img class="content-image" src="Images/leadership-training.png">
+      <div class="content-details fadeIn-right">
+       
+        <p class="content-text" style="text-align:justify;font-size:16px">Our Leadership training solutions transform executives into 
+							leaders with clear clarity of organizational vision and mission to 
+							achieve business excellence.</p>
+      </div>
+    </a>
+  </div><h3 class="title">Leadership Training</h3>
+</div>
+
+<div class="container">
+  
+  <div class="content">
+    
+      <div class="content-overlay"></div>
+      <img class="content-image" src="Images/newhireee.png">
+      <div class="content-details fadeIn-top fadeIn-left">
+      
+		<p class="content-text" style="text-align:justify;font-size:16px">Our Onboarding experience transitions your new talent to virtually 
+							explore the organizational architecture and effectively communicate to promote operational efficiency.</p>
+	
+      </div>
+    </a>
+  </div><h3 class="title">New Hire Training</h3>
+</div>
+
+<div class="container">
+  
+  <div class="content">
+ 
+      <div class="content-overlay"></div>
+      <img class="content-image" src="Images/producttrain.png">
+      <div class="content-details fadeIn-top fadeIn-right">
+        
+<p class="content-text" style="text-align:justify;font-size:16px">Our Product Training solutions are enriched with cutting-edge 
+							multimedia and technology that empowers your learners to gain product knowledge in due course.</p>
+		
+      </div>
+    </a>
+  </div><h3 class="title">Product Training</h3>
+</div>
+
+<div class="container">
+  
+  <div class="content">
+    
+      <div class="content-overlay"></div>
+      <img class="content-image" src="Images/train.png">
+      <div class="content-details fadeIn-bottom fadeIn-left">
+        
+<p class="content-text" style="text-align:justify;font-size:16px">Our premier Train-the-Trainer program empower trainers with the best practices and latest 
+							techniques in training delivery and discover the 4Ps of training: Plan, Prepare, Practice and Present.</p>
+					
+      </div>
+    </a>
+  </div><h3 class="title">Train the Trainer</h3>
+</div>
+
+<div class="container">
+ 
+  <div class="content">
+    
+      <div class="content-overlay"></div>
+      <img class="content-image" src="Images/saletrain.png">
+      <div class="content-details fadeIn-bottom fadeIn-right">
+      
+	<p class="content-text" style="text-align:justify;font-size:16px">Our technology-aided Sales Training services empowers your 
+							sales force with customer service and marketing skills to achieve the challenging targets.</p>
+					
+      </div>
+    </a>
+  </div> <h3 class="title">Sales Training</h3>
+</div>
+
+<div class="container">
+  
+  <div class="content">
+    
+      <div class="content-overlay"></div>
+      <img class="content-image" src="Images/safetytr.png">
+      <div class="content-details fadeIn-left">
+        
+<p class="content-text" style="text-align:justify;font-size:16px">Our well-planned Safety Training services ensures that all employees are 
+							conscious about the safety measures in the work environment and disseminates confidence.</p>
+					
+      </div>
+    </a>
+  </div><h3 class="title">Safety Training</h3>
+</div>
+
+
+
+			</div>
+	
+		</main>
+
+
+
+	</div>
+
+	<footer>
+		<div class="footer-bottom">
+			<div class="grid-row clear-fix">
+				<div class="grid-col grid-col-6 copyright">Texila American University<span></span> 2017 . All Rights Reserved</div>
+					
+				<!-- footer nav -->
+				
+				<!-- footer nav -->
+			</div>
+		</div>
+		</div>
+	</footer>
+	<script src="js/jquery.min.js"></script>
+	<script type='text/javascript' src='js/jquery.validate.min.js'></script>
+	<script src="js/jquery.form.min.js"></script>
+	<script src="js/TweenMax.min.js"></script>
+	<script src="js/main.js"></script>
+	<script src="js/jquery.isotope.min.js"></script>
+	
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/jquery-ui.min.js"></script>
+	<script src="js/jflickrfeed.min.js"></script>
+	<script src="js/jquery.tweet.js"></script>
+	
+	<script src="js/jquery.fancybox.pack.js"></script>
+	<script src="js/jquery.fancybox-media.js"></script>
+	<script src="js/retina.min.js"></script>
+</body>
+</html>
